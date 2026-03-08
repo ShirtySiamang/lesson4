@@ -54,7 +54,7 @@ ymaps.ready(() => {
             element.addEventListener('click', () => {
                 group.forEach((c) => c.classList.toggle('is-active', c.dataset.value === element.dataset.value));
                 renderInfo();
-            });
+            })
         });
     });
 
