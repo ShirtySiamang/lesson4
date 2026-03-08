@@ -1,17 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
     <title>Оформление доставки</title>
+
     <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/base_adaptive.css" />
+
     <link rel="stylesheet" href="styles/order.css" />
     <link rel="stylesheet" href="styles/order_adaptive.css" />
+
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=99708231-cf86-4f38-8fbd-c0e932e40367&suggest_apikey=fa4eba59-2806-4e3c-8277-b760c59cbbd2" type="text/javascript"></script>
 </head>
+
 <body>
 <div id="map"></div>
+
 <header class="header">
     <a class="header-brand" href="./index.html">
         <div class="header-logo">D</div>
@@ -54,7 +60,7 @@
                     <div class="main-size-media">
                         <img src="images/sizes/xs.png" alt="Короб XS" />
                     </div>
-                    <div class="main-size-description">17×12×9 см,<br />до 0.5 кг</div>
+                    <div class="main-size-description">17×12×9 см,<br>до 0.5 кг</div>
                 </div>
 
                 <div class="main-size-card" data-value="s">
@@ -65,7 +71,7 @@
                     <div class="main-size-media">
                         <img src="images/sizes/s.png" alt="Короб S" />
                     </div>
-                    <div class="main-size-description">23×19×10 см,<br />до 2 кг</div>
+                    <div class="main-size-description">23×19×10 см,<br>до 2 кг</div>
                 </div>
 
                 <div class="main-size-card" data-value="m">
@@ -76,7 +82,7 @@
                     <div class="main-size-media">
                         <img src="images/sizes/m.png" alt="Короб M" />
                     </div>
-                    <div class="main-size-description">33×25×15 см,<br />до 5 кг</div>
+                    <div class="main-size-description">33×25×15 см,<br>до 5 кг</div>
                 </div>
 
                 <div class="main-size-card" data-value="l">
@@ -87,7 +93,7 @@
                     <div class="main-size-media">
                         <img src="images/sizes/l.png" alt="Короб L" />
                     </div>
-                    <div class="main-size-description">31×25×38 см,<br />до 12 кг</div>
+                    <div class="main-size-description">31×25×38 см,<br>до 12 кг</div>
                 </div>
                 <div class="main-size-card" data-value="xl">
                     <div class="main-size-top">
@@ -97,7 +103,7 @@
                     <div class="main-size-media">
                         <img src="images/sizes/xl.png" alt="Короб XL" />
                     </div>
-                    <div class="main-size-description">60×35×30 см,<br />до 18 кг</div>
+                    <div class="main-size-description">60×35×30 см,<br>до 18 кг</div>
                 </div>
                 <div class="main-size-card" data-value="max">
                     <div class="main-size-top">
@@ -107,7 +113,7 @@
                     <div class="main-size-media main-size-media-palleta">
                         <img src="images/sizes/max.png" alt="Паллета" />
                     </div>
-                    <div class="main-size-description">120×120×80 см,<br />до 200 кг</div>
+                    div class="main-size-description">120×120×80 см,<br>до 200 кг</div>
                 </div>
             </div>
         </div>
@@ -149,12 +155,8 @@
                             <input id="customerName" placeholder="Ваше имя" autocomplete="off" />
                         </div>
                         <div class="main-field">
-                            <input
-                                    id="customerPhone"
-                                    placeholder="Ваш телефон"
-                                    autocomplete="off"
-                                    inputmode="tel"
-                            />
+                            <input id="customerPhone" placeholder="Ваш телефон" autocomplete="off"
+                                   inputmode="tel" />
                         </div>
                     </div>
                 </div>
@@ -164,8 +166,8 @@
                         <textarea id="comment" placeholder="Детали доставки и комментарии"></textarea>
                     </div>
                 </div>
-                <button id="submit" class="button main-submit-request" type="button" disabled>
-                    Отправить заявку
+                <button id="submit" class="button main-submit-request" type="button" disabled>Отправить
+                    заявку
                 </button>
             </div>
             <div class="main-order-success" id="orderSuccess">
